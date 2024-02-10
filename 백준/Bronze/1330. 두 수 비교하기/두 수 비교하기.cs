@@ -1,14 +1,7 @@
-            string[] s = Console.ReadLine().Split();
+            string[] a = Console.ReadLine().Split();
+            int b = int.Parse(a[0]);
+            int c = int.Parse(a[1]);
 
-            if (int.Parse(s[0]) < int.Parse(s[1]))
-            {
-                Console.WriteLine("<");
-            }
-            else if (int.Parse(s[0]) > int.Parse(s[1]))
-            {
-                Console.WriteLine(">");
-            }
-            else
-            {
-                Console.WriteLine("==");
-            }
+            if (b > c) Console.WriteLine(">");
+            if (b < c) Console.WriteLine("<");
+            if (b == c) Console.WriteLine("==");
