@@ -1,2 +1,1 @@
-            string input = Console.ReadLine();
-            Console.WriteLine(input + "??!");
+    Console.WriteLine(Console.ReadLine() + "??!");
